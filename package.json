@@ -1,0 +1,18 @@
+{
+  "name": "url-shortener-api",
+  "version": "v2",
+  "description": "An api used for shortening urls",
+  "main": "app.js",
+  "scripts": {
+    "api": "nodemon app"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "nanoid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
